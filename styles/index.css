@@ -5,8 +5,9 @@
 
 body{
     background: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%),url(/statics/images/store_view.jpg);
-    background-position: center;
-    background-size: cover;
+    */
+    /*background-position: center;*/
+    /*background-size: cover;
     /*height: 109vh;*/
     min-height: 100vh;
 }
@@ -304,12 +305,13 @@ ul li a:hover{
 
 .footer{
     background: orangered;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
-    font-weight: bold;
     font-size: 1.5rem;
     align-items: center;
     padding-top: 2rem;
-    position: sticky;
+    position: relative;
     top: 100vh;
+    width: 100%;
 }
