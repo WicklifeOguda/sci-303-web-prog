@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-.main{
-    width: 100%;
+body{
     background: linear-gradient(to top, rgba(0,0,0,0.6)50%,rgba(0,0,0,0.6)50%),url(/statics/images/store_view.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    /*height: 109vh;*/
+    min-height: 100vh;
 }
 
 .navbar{
@@ -300,4 +300,16 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: orange;
 
+}
+
+.footer{
+    background: orangered;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;
+    padding-top: 2rem;
+    position: sticky;
+    top: 100vh;
 }
