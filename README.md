@@ -1,5 +1,5 @@
 # sci-303-web-prog
 
-## This is an class assignment web programming
+## This is a class assignment for web programming
 
 ## Invovels HTML, CSS, JS and PHP
